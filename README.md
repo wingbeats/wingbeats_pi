@@ -81,7 +81,7 @@ sudo rm /tmp/tensorflow-1.5.0-cp35-none-any.whl
 sudo apt-get install libffi-dev
 sudo pip3 install pysoundfile
 ```
-## Step 3 Classifying
+## Step 3 - Classifying
 
 Download and extract the wingbeats_pi-master.zip and cd inside wingbeats_pi-master folder. Choose samples from test_corpus folder and copy them into your device. You should be able to run the app anytime in terminal, with the following commands:
 
