@@ -2,7 +2,7 @@
 
 <p align="center"> <img src="https://github.com/wingbeats/wingbeats_pi/blob/master/wingbeats.png"></p>
 
-Code bundle for Kaggle dataset [Wingbeats](https://www.kaggle.com/potamitis/wingbeats) 
+Raspberry Pi 3 bundle for Kaggle dataset [Wingbeats](https://www.kaggle.com/potamitis/wingbeats) 
 
 We present a code bundle that allows wingbeat recordings to be transmitted through the Bluetooth wireless mode of a smartphone/tablet to a raspberry pi 3. The user sends the recording(s) and the result of the recognition taking place on pi3 appears on screen. We have embedded a CNN model on Python 2.7 and Python 3.5, Raspbian GNU/Linux 9 (stretch).
 
