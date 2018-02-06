@@ -95,3 +95,6 @@ run in terminal:
 ```
 python3 wingbeats.py
 ```
+**_-TODO-_**
+* Addd further details about training and converting Keras model to Tensorflow graph. *
+
