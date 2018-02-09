@@ -96,5 +96,5 @@ run in terminal:
 python3 wingbeats.py
 ```
 ## **_Upcoming_**
-* Addd further details about training and converting Keras model to Tensorflow graph.
+* Add further details about training and converting Keras model to Tensorflow graph.
 
