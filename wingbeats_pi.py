@@ -162,7 +162,7 @@ with tf.Session() as sess:
                             
                             e_t = time.time()
                             
-                            total_time_took = str("Took:") + ' ' + str(("%.3f" % round(e_t - s_t, 3))) + ' secs'
+                            total_time_took = str("Time (s): ") + str(("%.3f" % round(e_t - s_t, 3)))
                             text1.insert(tk.END, '\n\n' + total_time_took + '\n')
                             text1.insert(tk.END, '\n')
 
