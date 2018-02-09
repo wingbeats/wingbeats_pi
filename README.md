@@ -6,7 +6,7 @@ Raspberry Pi 3 bundle for Kaggle dataset [Wingbeats](https://www.kaggle.com/pota
 
 We present a code bundle that allows wingbeat recordings to be transmitted through the Bluetooth wireless mode of a smartphone/tablet to a raspberry pi 3. The user sends the recording(s) and the result of the recognition taking place on pi3 appears on screen. We have embedded a CNN model on Python 2.7 and Python 3.5, Raspbian GNU/Linux 9 (stretch).
 
-The weights are derived on a desktop computer using Keras 2.1.3 and after being converted to a Tensorflow 1.5.0 graph are ported on a pi3. The latter is only used to predict the correct class of the snippet.
+The weights are derived on a desktop computer using Keras 2.1.3 and after being converted to a Tensorflow 1.4 graph are ported on a pi3. The latter is only used to predict the correct class of the snippet.
 
 The pi3 implementation suggests that a real-time wingbeat recognizer can be directly embedded to insect traps. Alternatively, a stand-alone pi3 can receive snippets through a Wifi functionality from a network of insect traps deployed anywhere in the world.
 
