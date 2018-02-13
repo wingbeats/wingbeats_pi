@@ -28,7 +28,7 @@ output_graph_name = 'basic_cnn_1d.pb'
 target_names = ['Ae. aegypti', 'Ae. albopictus', 'An. gambiae', 'An. arabiensis', 'C. pipiens', 'C. quinquefasciatus']
 
 
-def basic_cnn_gru_1D(cols, channels, num_classes):
+def basic_cnn_1d(cols, channels, num_classes):
     inputs = Input(shape = (cols, channels))
 
     x = BatchNormalization() (inputs)
@@ -68,7 +68,7 @@ def basic_cnn_gru_1D(cols, channels, num_classes):
 
 K.set_learning_phase(0)
 
-model = basic_cnn_gru_1D(input_shape[0], input_shape[1], len(target_names))
+model = basic_cnn_1d(input_shape[0], input_shape[1], len(target_names))
 
 model.load_weights(best_weights_path)
 
