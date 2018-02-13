@@ -75,7 +75,7 @@ print ('train #recs = ', len(X_train))
 print ('test #recs = ', len(X_test))
 
 
-def basic_cnn_1D(cols, channels, num_classes):
+def basic_cnn_1d(cols, channels, num_classes):
     inputs = Input(shape = (cols, channels))
 
     x = BatchNormalization() (inputs)
@@ -175,7 +175,7 @@ def valid_generator():
             yield x_batch, y_batch
 
 
-model = basic_cnn_1D(input_shape[0], input_shape[1], len(target_names))
+model = basic_cnn_1d(input_shape[0], input_shape[1], len(target_names))
 
 callbacks_list = [ModelCheckpoint(monitor = monitor,
                                 filepath = best_weights_path, 
